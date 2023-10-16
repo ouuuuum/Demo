@@ -7,7 +7,7 @@ app.listen(PORT, () => {
 app.get("/groceries", (req, res) => {
     res.send([
         {
-            item: "Amani",
+            item: "Oum",
             quantity: 20,
             },
             {
