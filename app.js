@@ -7,13 +7,25 @@ app.listen(PORT, () => {
 app.get("/groceries", (req, res) => {
     res.send([
         {
-            item: "Amani",
+            item: "Oum",
             quantity: 20,
             },
             {
                 item: "Kahlouch",
                 quantity: 200,
                 },
+                {
+                    item: "Kahlouch",
+                    quantity: 200,
+                    },
+                {
+                    item: "Kahlouch",
+                    quantity: 200,
+                    },
+                    {
+                        item: "Kahlouch",
+                        quantity: 200,
+                        },
     {
     item: "milk",
     quantity: 2,
