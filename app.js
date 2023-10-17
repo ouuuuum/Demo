@@ -14,7 +14,11 @@ app.get("/groceries", (req, res) => {
                 item: "Oum",
                 quantity: 200,
                 },
-                
+
+  {
+                item: "Oum",
+                quantity: 200,
+                },                
     {
     item: "milk",
     quantity: 2,
